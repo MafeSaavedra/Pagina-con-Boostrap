@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video con Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">RECURSOS PARA FRONT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <!-- Plataforma Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            JAVASCRIPT
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                            <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                            <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                        </ul>
+                    </li>
+                    <!-- Acelerador Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CSS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Opción A</a></li>
+                            <li><a class="dropdown-item" href="#">Opción B</a></li>
+                            <li><a class="dropdown-item" href="#">Opción C</a></li>
+                        </ul>
+                    </li>
+                    <!-- Usos Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           FRAMEWORKS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Uso 1</a></li>
+                            <li><a class="dropdown-item" href="#">Uso 2</a></li>
+                            <li><a class="dropdown-item" href="#">Uso 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor para las tarjetas -->
+    <div class="container mt-5">
+        <div class="grid-container">
+            <div class="card">
+                <img src="\animacion.png" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                    <h5 class="card-title">¿SABIAS QUE?</h5>
+                    <p class="card-text">Puedes crear animacion sin usar JAVASCRIPT.</p>
+                    <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="\boostrap.png" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                    <h5 class="card-title">¿SABIAS QUE?</h5>
+                    <p class="card-text">Muchas empresas hoy en día usan boostrap</p>
+                    <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor para el video -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">ANIMACIÓN CON CSS </h1>
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/AbCYziNyjvk" title="YouTube video" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="message-box">
+            Desarrolladores frontend han<br>
+            <span class="percentage">3X</span><br>
+            <span class="subtext">mejorado la</span><br>
+            <span class="subtext">velocidad de carga</span>
+        </div>
+        <div class="message-box">
+            Aplicaciones modernas han<br>
+            <span class="percentage">250%</span><br>
+            <span class="subtext">mejorado la experiencia</span><br>
+            <span class="subtext">del usuario</span>
+        </div>
+        <div class="message-box">
+            Interfaces responsivas han<br>
+            <span class="percentage">80%</span><br>
+            <span class="subtext">aumentado la retención</span><br>
+            <span class="subtext">de usuarios</span>
+        </div>
+        <div class="message-box">
+            Nuevas tecnologías frontend han<br>
+            <span class="percentage">4X</span><br>
+            <span class="subtext">mejorado la eficiencia</span><br>
+            <span class="subtext">en el desarrollo</span>
+        </div>
+    </div>
+
+    <div class="container-3" id="marketing-section"></div>
+        <div class="highlight-text">
+            Olvida los frameworks complicados y el CSS desorganizado
+        </div>
+        <div class="main-text">
+            Domina el Desarrollo Frontend y crea interfaces impresionantes
+        </div>
+        <p class="description-text">
+            Descubre cómo las mejores prácticas en desarrollo frontend pueden transformar tu sitio web, mejorando su rendimiento y experiencia de usuario. Aprende sobre los últimos frameworks y herramientas para construir aplicaciones web interactivas y responsivas.
+
+        </p>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

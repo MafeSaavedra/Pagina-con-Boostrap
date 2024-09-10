@@ -1,0 +1,41 @@
+# Págin con Bootstrap
+
+## Descripción
+ La página está diseñada para demostrar varios componentes de Bootstrap, así como para proporcionar ejemplos prácticos y recursos educativos.
+
+## Estructura del Proyecto
+
+- **`index.html`**: Archivo principal HTML que contiene la estructura de la página.
+- **`style.css`**: Archivo CSS adicional para personalizaciones y estilos específicos.
+
+## Contenido de la Página
+
+1. **Barra de Navegación**:
+   - Utiliza la barra de navegación (`navbar`) de Bootstrap para proporcionar enlaces de navegación y menús desplegables.
+
+2. **Tarjetas**:
+   - Incluye tarjetas (`card`) con imágenes y texto, demostrando cómo presentar información de manera visualmente atractiva.
+
+3. **Video**:
+   - Presenta un video de YouTube integrado en la página utilizando el componente `ratio` de Bootstrap para mantener una relación de aspecto correcta.
+
+4. **Mensajes Destacados**:
+   - Muestra estadísticas sobre el impacto de las tecnologías frontend en la velocidad de carga, experiencia del usuario y retención de usuarios.
+
+5. **Sección de Marketing**:
+   - Destaca la importancia de dominar el desarrollo frontend y las mejores prácticas para construir interfaces impresionantes.
+
+## Tecnologías Utilizadas
+
+- **Bootstrap 5.3.3**: Framework CSS para desarrollo de interfaces responsivas.
+- **HTML5**: Lenguaje de marcado para la estructura de la página.
+- **CSS**: Para estilos personalizados.
+
+## Instalación y Uso
+
+Para visualizar la página, simplemente abre el archivo `index.html` en un navegador web. No es necesario instalar dependencias adicionales, ya que los archivos de Bootstrap se cargan desde un CDN.
+
+## Personalización
+
+- **CSS Personalizado**: Modifica el archivo `style.css` para ajustar el diseño y los estilos según tus necesidades.
+- **Contenido**: Actualiza el contenido HTML y los enlaces para adaptarlos a tus propios recursos y objetivos.
